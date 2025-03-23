@@ -1,0 +1,249 @@
+body{
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+color: #434455;
+letter-spacing: 1,5;
+background-color: #FFFFFF;
+}
+
+.logo{
+    color: #2E2F42;
+    width: 71px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo > .logo-blue{
+    color: #4D5AE5;
+
+}
+
+.nav .nav-list{
+    width: 261px;
+    height: 24px;
+}
+
+.nav .nav-list .nav-item{
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    width: 48px;
+    height: 24px;
+}
+
+.nav .nav-list .nav-item a{
+    text-decoration: none;
+}
+
+.nav .nav-list .nav-item a:hover{
+    color: #404BBF;
+}
+
+.nav .nav-list .nav-item .nav-item-1:active{
+    text-decoration: underline;
+}
+
+.address .address-list .address-item{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 153px;
+    height: 24px;
+    
+
+}
+
+.address .address-list .address-item .address-link:hover{
+    color: #404BBF;
+}
+
+.address-link{
+    text-decoration: none;
+}
+
+.hero{
+    width: 1440px;
+    height: 600px;
+    background-color: #2e2f42;
+}
+
+.hero .hero-title{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 496px;
+    height: 120px;
+}
+
+.hero .hero-button{
+    cursor: pointer;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    background-color: #4d5ae5;
+}
+
+.hero .hero-button{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+    
+
+}
+
+.hero .hero-button:hover{
+    background-color: #404BBF;
+}
+.services{
+    width: 1128px;
+    height: 104px;
+}
+
+.services .services-list{
+    width: 264px;
+    height: 104px;
+}
+
+.services .services-list .services-item .services-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.services .services-list .services-item .services-description{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team{
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+}
+
+.team .team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team .team-title .team-list .team-card{
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    background: #fff;
+}
+
+.team .team-title .team-list .team-card img{
+    width: 264px;
+    height: 260px;
+}
+
+.team .team-title .team-list .team-card .team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team .team-title .team-list .team-card .team-role{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.portfolio{
+    width: 1128px;
+    height: 1000px;
+}
+
+.portfolio .portfolio-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio .portfolio-title .portfolio-list{
+    width: 1128px;
+    height: 420px;
+}
+
+.portfolio .portfolio-title .portfolio-list .portfolio-card{
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+
+.portfolio .portfolio-title .portfolio-list .portfolio-card .portfolio-images{
+    width: 360px;
+    height: 300px;
+}
+
+.portfolio .portfolio-title .portfolio-list .portfolio-card .portfolio-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio .portfolio-title .portfolio-list .portfolio-card .portfolio-category{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer{
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+}
+
+.footer .footer-logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f4f4fd;
+    width: 115px;
+    height: 24px;
+
+}
+
+.footer-logo > .logo-blue{
+    color: #4d5ae5;
+}
+
+.footer .footer-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    text-align: left;
+}
+
